@@ -1,0 +1,6 @@
+language: Java
+
+install: 
+  - sudo apt-get install maven
+
+

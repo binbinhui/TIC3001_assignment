@@ -1,0 +1,25 @@
+Navigation﻿
+You can use various shortcuts to switch between the editor and different tool windows, change the editor size, switch focus, or return to the original layout.
+Maximize editor pane﻿
+In the editor, press Ctrl+Shift+F12. IntelliJ IDEA hides all windows except the active editor.
+Switch the focus from a window to the editor﻿
+Press Escape. IntelliJ IDEA moves the focus from any window to the active editor.
+Return to the editor from the command-line terminal﻿
+Press Alt+F12. IntelliJ IDEA closes the terminal window.
+If you need to keep the terminal window open when you switch back to the active editor, press Ctrl+Tab.
+Return to the default layout﻿
+Press Shift+F12.
+To save the current layout as the default, from the main menu select Window | Store Current Layout as Default. You can use the same shortcut Shift+F12 to restore the saved layout.
+Jump to the last active window﻿
+Press F12.
+Use the switcher for navigation﻿
+To jump between the opened files and tool windows with the switcher, press Ctrl+Tab.
+Keep Ctrl pressed to leave the switcher popup open.
+Press Tab to move between elements. Press Backspace to remove the selected file from the list and close it in the editor.
+Change the IDE appearance﻿
+You can switch between schemes, keymaps, or viewing modes.
+Press Ctrl+`.
+In the Switch menu, select the option you need and press Enter. Use the same shortcut Ctrl+` to undo your changes.
+You can also find and adjust the color scheme settings including the high contrast color scheme for people with eyesight deficiency on the Editor | Color Scheme page and the keymap settings on the Keymap page of the Settings/Preferences dialog Ctrl+Alt+S.
+Jump to the navigation bar﻿
+Press Alt+Home.

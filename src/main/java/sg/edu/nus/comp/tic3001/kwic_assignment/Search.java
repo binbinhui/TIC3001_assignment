@@ -36,8 +36,7 @@ public class Search {
             }
             if (anyChange == Files.readAllLines(Paths.get(folder(output(index)))).size()) UI.noWordsFound(searchWords);
         } catch (IOException e) {
-            System.out.println("index not found");
-
+            System.out.println("index not found");        
         }
     }
 }

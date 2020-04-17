@@ -73,7 +73,7 @@ public class Main {
             else output.appendFile(shiftedLines, new File(folder(output(index))), fileName);
             if (fileIndex == 0) UI.fileUpdated(output(index));
         } catch (IOException e) {
-            System.out.println("file not found");
+            System.out.println("index not found");
         }
     }
 }

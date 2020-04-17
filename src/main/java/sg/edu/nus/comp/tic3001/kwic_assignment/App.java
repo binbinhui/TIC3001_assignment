@@ -2,8 +2,8 @@ package sg.edu.nus.comp.tic3001.kwic_assignment;
 
 import java.util.List;
 
-//import com.google.common.collect.ArrayListMultimap;
-//import com.google.common.collect.ListMultimap;
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.ListMultimap;
 /**
  * Hello world!
  *

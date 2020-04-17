@@ -28,7 +28,8 @@ class Extensions {
             stream = Files.lines(Paths.get(folder(required(index))));
             requiredWords = stream.map(String::toLowerCase).collect(Collectors.toList());
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("index not found");
+
         }
     }
 

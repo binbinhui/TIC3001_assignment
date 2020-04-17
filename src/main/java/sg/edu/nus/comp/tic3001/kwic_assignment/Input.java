@@ -75,7 +75,7 @@ class Input {
 
     void readFile(Lines lines, File file) throws IOException {
         for (String line : Files.readAllLines(Paths.get(String.valueOf(file)))) {
-            if (line == "\n") continue;
+            if (line.equals("\n")) continue;
             if (line.contains(".")) {
                 String[] sentences = line.split("[.]");
                 for (String sentence : sentences) lines.insert(sentence.trim());
